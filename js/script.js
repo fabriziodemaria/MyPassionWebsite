@@ -95,44 +95,25 @@ window.addEventListener('load', () => {
     });
 });
 
-// Optional: Add app data dynamically
-// You can replace the static HTML app cards with dynamic data
+// App data for reference
 const appData = [
     {
-        name: "App Name 1",
-        category: "Productivity",
-        description: "A beautiful app that helps you stay organized and productive throughout your day.",
-        icon: "📱",
+        name: "SL Commuter",
+        category: "Travel",
+        description: "The fastest way to check SL departure times in Stockholm! Save your favorite departures and get real-time updates with beautiful widgets.",
+        icon: "SLCommuterIcon.png",
         rating: 4.8,
-        downloads: "10K+",
-        appStoreUrl: "#"
+        pricing: "Free",
+        appStoreUrl: "https://apps.apple.com/se/app/sl-commuter/id6657979065"
     },
     {
-        name: "App Name 2",
-        category: "Creative",
-        description: "Express your creativity with powerful tools designed for artists and designers.",
-        icon: "🎨",
-        rating: 4.9,
-        downloads: "25K+",
-        appStoreUrl: "#"
-    },
-    {
-        name: "App Name 3",
+        name: "Mind Weekly",
         category: "Health & Fitness",
-        description: "Track your fitness journey and achieve your health goals with personalized insights.",
-        icon: "🏃",
-        rating: 4.7,
-        downloads: "15K+",
-        appStoreUrl: "#"
-    },
-    {
-        name: "App Name 4",
-        category: "Education",
-        description: "Learn something new every day with engaging content and interactive lessons.",
-        icon: "📚",
-        rating: 4.6,
-        downloads: "8K+",
-        appStoreUrl: "#"
+        description: "Track your mental health with Apple Health integration. Monitor outdoor time, sleep, exercise, and mindfulness with beautiful progress rings.",
+        icon: "MindWeeklyIcon.png",
+        rating: null,
+        pricing: "Free",
+        appStoreUrl: "https://apps.apple.com/se/app/mind-weekly/id6753870098"
     }
 ];
 

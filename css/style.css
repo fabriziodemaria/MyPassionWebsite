@@ -261,6 +261,14 @@ body {
     box-shadow: var(--shadow-md);
 }
 
+.app-icon-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 18px;
+    box-shadow: var(--shadow-md);
+    object-fit: cover;
+}
+
 .app-content {
     display: flex;
     flex-direction: column;
