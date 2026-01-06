@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore my iOS apps available on the App Store">
-    <title>My iOS Apps Portfolio</title>
+    <meta name="description" content="BookLingo - Learn languages by reading books you love. Import ebooks, get instant translations, and build vocabulary naturally.">
+    <meta name="keywords" content="language learning, ebook reader, vocabulary builder, translation app, learn languages">
+    <meta property="og:title" content="BookLingo - Learn Languages Through Reading">
+    <meta property="og:description" content="The most enjoyable way to learn a new language: simply by reading the books you love.">
+    <meta property="og:type" content="website">
+    <title>BookLingo - Learn Languages Through Reading</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="nav">
         <div class="container">
             <div class="nav-content">
-                <a href="#" class="logo">Niche Apps Production</a>
+                <a href="#" class="logo">
+                    <span class="logo-icon">📖</span>
+                    <span class="logo-text">BookLingo</span>
+                </a>
                 <div class="nav-links">
-                    <a href="#apps">Apps</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#download">Download</a>
                 </div>
             </div>
         </div>
@@ -27,103 +34,191 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-bg">
+            <div class="floating-letter letter-1">A</div>
+            <div class="floating-letter letter-2">文</div>
+            <div class="floating-letter letter-3">Ä</div>
+            <div class="floating-letter letter-4">ñ</div>
+            <div class="floating-letter letter-5">你</div>
+            <div class="floating-letter letter-6">ø</div>
+            <div class="book-spine spine-1"></div>
+            <div class="book-spine spine-2"></div>
+            <div class="book-spine spine-3"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Small apps for smart ideas</h1>
-                <p class="hero-subtitle">Niche ideas are everywhere, I just build apps for them.</p>
-                <a href="#apps" class="btn-primary">Explore Apps</a>
-            </div>
-            <div class="hero-decoration">
-                <div class="floating-icon icon-1">📱</div>
-                <div class="floating-icon icon-2">✨</div>
-                <div class="floating-icon icon-3">🚀</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Apps Section -->
-    <section id="apps" class="apps-section">
-        <div class="container">
-            <h2 class="section-title">Niche Apps</h2>
-            <p class="section-subtitle">Available now on the App Store</p>
-
-            <div class="apps-grid" id="appsGrid">
-                <!-- Commuter -->
-                <div class="app-card">
-                    <div class="app-icon">
-                        <img src="CommuterIcon.png" alt="Commuter Icon" class="app-icon-image">
-                    </div>
-                    <div class="app-content">
-                        <h3 class="app-name">Commuter</h3>
-                        <p class="app-category">Utility & Travel</p>
-                        <p class="app-description">Put your daily bus' arrival times on your home screen.</p>
-                        <p class="app-description">Available for San Francisco, New York, Stockholm and Rome.</p>
-
-                        <a href="https://apps.apple.com/se/app/commuter-widgets/id6738397174" class="btn-app-store" target="_blank" rel="noopener">
-                            <svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="120" height="40" rx="8" fill="#000"/>
-                                <text x="60" y="24" font-family="Arial, sans-serif" font-size="12" fill="#fff" text-anchor="middle">View on App Store</text>
-                            </svg>
-                        </a>
+                <p class="hero-tagline">Language Learning, Reimagined</p>
+                <h1 class="hero-title">Learn by <em>reading</em><br>what you love</h1>
+                <p class="hero-subtitle">
+                    Import any ebook in the language you're learning. Tap words for instant translations. 
+                    Build vocabulary naturally as you read stories that captivate you.
+                </p>
+                <div class="hero-cta">
+                    <a href="https://apps.apple.com/se/app/booklingo/id6755432558" class="btn-download" target="_blank" rel="noopener">
+                        <svg class="apple-icon" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        <span class="btn-text">
+                            <span class="btn-small">Download on the</span>
+                            <span class="btn-large">App Store</span>
+                        </span>
+                    </a>
+                    <div class="hero-meta">
+                        <span class="meta-item">
+                            <span class="meta-icon">✓</span>
+                            Free to try
+                        </span>
+                        <span class="meta-item">
+                            <span class="meta-icon">✓</span>
+                            iOS 18+
+                        </span>
                     </div>
                 </div>
-
-                <!-- Mind Weekly -->
-                <div class="app-card">
-                    <div class="app-icon">
-                        <img src="MindWeeklyIcon.png" alt="Mind Weekly Icon" class="app-icon-image">
-                    </div>
-                    <div class="app-content">
-                        <h3 class="app-name">Mind Weekly</h3>
-                        <p class="app-category">Health & Fitness</p>
-                        <p class="app-description">Log daily gratitude, get an uplifting summary at the end of the week.</p>
-                        <p class="app-description">Apple Rings, for mental health rather than just fitness.</p>
-                    
-                        <a href="https://apps.apple.com/se/app/mind-weekly/id6753870098" class="btn-app-store" target="_blank" rel="noopener">
-                            <svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="120" height="40" rx="8" fill="#000"/>
-                                <text x="60" y="24" font-family="Arial, sans-serif" font-size="12" fill="#fff" text-anchor="middle">View on App Store</text>
-                            </svg>
-                        </a>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="mockup-reader">
+                            <div class="mockup-text">
+                                <span class="word">El</span>
+                                <span class="word">pequeño</span>
+                                <span class="word highlighted">príncipe</span>
+                                <span class="word">vivía</span>
+                                <span class="word">en</span>
+                                <span class="word">un</span>
+                                <span class="word">asteroide</span>
+                                <span class="word">apenas</span>
+                                <span class="word">más</span>
+                                <span class="word">grande</span>
+                                <span class="word">que</span>
+                                <span class="word">él...</span>
+                            </div>
+                            <div class="translation-bubble">
+                                <span class="translation-word">príncipe</span>
+                                <span class="translation-arrow">→</span>
+                                <span class="translation-meaning">prince</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+    <!-- Features Section -->
+    <section id="features" class="features-section">
         <div class="container">
-            <div class="about-content">
-                <h2 class="section-title">About Me</h2>
-                <p class="about-text">
-                    My name is Fabrizio. I am a developer by profession, with a hobby of building apps that I love to use myself.
-                </p>
-                <p class="about-text">
-                    I like to believe that more people out there would appreciate these apps and their utility, as much as I do.
-                </p>
+            <h2 class="section-title">Everything you need to <em>read & learn</em></h2>
+            <p class="section-subtitle">Simple tools that make language learning feel natural</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-title">Import Any Ebook</h3>
+                    <p class="feature-description">Load books directly from the Files app. EPUB format supported. Curated links to free royalty-free books included.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔤</div>
+                    <h3 class="feature-title">Instant Translations</h3>
+                    <p class="feature-description">Tap any word or highlight sentences for instant translations into your native language. Powered by Google Translate.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">Build Vocabulary</h3>
+                    <p class="feature-description">Words you look up are saved automatically. Review and strengthen them with interactive study modes.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3 class="feature-title">AI Story Generation</h3>
+                    <p class="feature-description">Use Apple Intelligence to generate short stories for quick practice sessions. No ebook required to get started.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌙</div>
+                    <h3 class="feature-title">Reader Customization</h3>
+                    <p class="feature-description">Dark and light themes, adjustable text size, and bookmarks to make reading comfortable and personal.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Track Your Progress</h3>
+                    <p class="feature-description">Statistics for reading time, study sessions, and vocabulary growth. Watch your language skills improve.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-section">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Have questions or feedback? Do you have a niche idea you'd like to discuss? I'd love to hear from you!</p>
-            <div class="contact-links">
-                <a href="mailto:fabrizio90@icloud.com" class="contact-link">
-                    <span class="contact-icon">📧</span>
-                    <span>Email</span>
+            <h2 class="section-title">How it works</h2>
+            <p class="section-subtitle">Start learning in three simple steps</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Choose a book</h3>
+                        <p class="step-description">Import an ebook in your target language or generate a short story with AI. Start with something you're excited to read.</p>
+                    </div>
+                </div>
+                
+                <div class="step-connector"></div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Read & tap</h3>
+                        <p class="step-description">Read at your own pace. When you encounter unfamiliar words, tap them for instant translations. Context makes learning stick.</p>
+                    </div>
+                </div>
+                
+                <div class="step-connector"></div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Study & grow</h3>
+                        <p class="step-description">Between reading sessions, review your saved vocabulary with interactive exercises. Reinforce what you've learned naturally.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="quote">
+                <p>"Reading is to the mind what exercise is to the body."</p>
+                <cite>— Joseph Addison</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="download-title">Start your language journey today</h2>
+                <p class="download-subtitle">Free to download. Pro subscription available for unlimited translations.</p>
+                
+                <a href="https://apps.apple.com/se/app/booklingo/id6755432558" class="btn-download btn-download-large" target="_blank" rel="noopener">
+                    <svg class="apple-icon" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <span class="btn-text">
+                        <span class="btn-small">Download on the</span>
+                        <span class="btn-large">App Store</span>
+                    </span>
                 </a>
-                <a href="https://twitter.com/fabriziodenny" class="contact-link" target="_blank" rel="noopener">
-                    <span class="contact-icon">🐦</span>
-                    <span>Twitter</span>
-                </a>
-                <a href="https://github.com/fabriziodemaria" class="contact-link" target="_blank" rel="noopener">
-                    <span class="contact-icon">💻</span>
-                    <span>GitHub</span>
-                </a>
+                
+                <div class="requirements">
+                    <p>Requires iOS 18.0 or later · iPhone, iPad, Mac, Apple Vision</p>
+                </div>
             </div>
         </div>
     </section>
@@ -131,8 +226,20 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Fabrizio Demaria. All rights reserved.</p>
-            <p class="footer-note">Made with ❤️ for iOS</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">📖</span>
+                    <span class="logo-text">BookLingo</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms of Use</a>
+                    <a href="mailto:fabrizio.f.demaria@gmail.com">Contact</a>
+                    <a href="https://twitter.com/fabriziodenny" target="_blank" rel="noopener">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Fabrizio Demaria. Made with ❤️ in Stockholm.</p>
+            </div>
         </div>
     </footer>
 
